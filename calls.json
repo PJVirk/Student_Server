@@ -1,0 +1,33 @@
+[
+    {
+        "name": "getMajorStudents",
+        "params": {
+            "action": "remote_call",
+            "arguments": "jsonstr",
+            "class_id": "Major",
+            "host_url": "1234567890",
+        },
+        "returns": {
+            "action": "call",
+            "host_url": "1234567890",
+	          "class_id": "transaction",
+	          "response": "jsonstr"
+        }
+    },
+    {
+      "name": "getStudentInfo",
+      "params": {
+          "action": "remote_call",
+          "arguments": "jsonstr",
+          "student_name": "Name",
+          "host_url": "1234567890",
+      },
+      "returns": {
+          "action": "call",
+          "host_url": "1234567890",
+          "student_name": "name",
+          "response": "jsonstr"
+      }
+
+    }
+]
